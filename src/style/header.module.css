@@ -1,0 +1,33 @@
+.wrapper {
+  margin: 0px;
+  padding: 0px;
+  height: 80px;
+  width: 100vw;
+  background: black;
+  border-radius: 5px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav h1 {
+  color: black;
+  font-family: "Sofia Sans", sans-serif;
+  margin: 15px;
+  background: linear-gradient(to right, rgb(143, 240, 143), rgb(82, 212, 232));
+  border-radius: 50px 60px 55px 100px;
+  padding: 0px 6px 0px 6px;
+  margin-left: 90px;
+}
+
+.nav span {
+  color: black;
+  font-family: "Sofia Sans", sans-serif;
+  margin-right: 90px;
+  background: linear-gradient(to right, rgb(82, 212, 232), rgb(103, 241, 103));
+  border-radius: 50px 60px 55px 100px;
+  padding: 0px 6px 0px 6px;
+}

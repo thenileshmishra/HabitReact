@@ -1,0 +1,40 @@
+.wrapper {
+  flex: 0 0 auto;
+  width: 40em;
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 20px 10px 20px 10px;
+}
+
+.listGroup {
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 15px;
+  background: rgb(134, 214, 186);
+  transition: 0.6s ease-in-out;
+}
+
+.listGroup:hover {
+  border-radius: 25px;
+  box-shadow: 5px 5px white;
+  padding: 20px;
+}
+
+.title {
+  font-family: "Sofia Sans", sans-serif;
+  background: rgb(84, 34, 34);
+  padding: 4px 10px 4px 10px;
+  margin-left: 10px;
+  border-radius: 20%;
+}
+
+.description {
+  background: rgb(28, 164, 13);
+  border-radius: 20px;
+  padding: 4px 10px 4px 10px;
+  margin-left: 5px;
+}
+
+.listGroup p {
+  margin-bottom: 8px;
+}

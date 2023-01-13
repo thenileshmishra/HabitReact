@@ -1,0 +1,27 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.col {
+  flex: 1 0;
+}
+
+.dayHeadings {
+  padding-left: 8px;
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  font-family: "Sofia Sans", sans-serif;
+}
+
+.btn {
+  padding-left: 8px;
+  height: 30px;
+  width: 30px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}

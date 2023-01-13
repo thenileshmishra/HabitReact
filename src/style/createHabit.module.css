@@ -1,0 +1,64 @@
+.btn {
+  margin-top: 14px;
+  background: white;
+  color: black;
+  font-size: 1.3em;
+  font-family: "Sofia Sans", sans-serif;
+  padding: 1px 7px 1px 7px;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+  border: none;
+}
+.btn:hover {
+  background: rgb(221, 221, 221);
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 2px white;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.input {
+  width: 100%;
+  color: rgb(236, 40, 40);
+  border-radius: 5px;
+  height: 40px;
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 1.4em;
+  padding: 4px;
+}
+
+.label {
+  font-size: 1.3em;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.describe {
+  border-radius: 50px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.form {
+  background: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+  height: 250px;
+}
+
+.body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 2em 0.2em;
+  display: block;
+  background-color: rgb(214, 213, 213);
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px rgb(213, 213, 213);
+}
